@@ -1,0 +1,427 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Pradeepan Portfolio"/>
+    <meta name="author" content="Pradeepan P"/>
+    <title>Pradeepan</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href={% static "pradeepan_portfolio/images/favicon.ico" %}/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+          rel="stylesheet" type="text/css"/>
+    <!-- Third party plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+          rel="stylesheet"/>
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href={% static "pradeepan_portfolio/css/styles.css" %} rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Pradeepan</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Myjourney">My Journey</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio-summery">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100  text-left">
+            <div class="col-lg-10 align-self-end">
+                <h2 class="text-white text-white font-weight-bold ">Hi, I'm Pradeepan</h2>
+                <h2 class="text-white text-white font-weight-bold">Android Developer & Aspiring Data Scientist</h2>
+            </div>
+            </br>
+            </br>
+            </br>
+            <div class="col-lg-8 align-self-baseline">
+                <h3 class="text-white-75 font-weight-lighter mb-5">I want to make thing that makes a difference.</h3>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact"> Hire Me </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- About-->
+<section class="page-section bg-primary" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">About Me</h2>
+                <hr class="divider light my-4"/>
+                <h4 class="text-white-75 mb-3">I'm Android Developer with 2 years of experience in developing innovative
+                    applications. <br/> I worked for Indian Institute of Technology Madras (IITM)
+                    <br/> & <br/> Internship at Chakra Network Solutions Pvt. Ltd.</h4>
+                <h5 class="text-white-75 font-weight-lighter mb-5">I developed several projects and AAR & JAR libraries
+                    all based on
+                    Android.</h5>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#Myjourney">My journey</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section" id="Myjourney">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">My journey</h2>
+            <h3 class="section-subheading text-muted">Let's Start!</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                                                 src={% static "pradeepan_portfolio/images/about/murugappa.jpg" %} alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Diploma</h4>
+                        <h4 class="subheading">Computer Engineering (2016-2018)</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Murugappa polytechnic college</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <img class="rounded-circle img-fluid"
+                         src={% static "pradeepan_portfolio/images/about/Chakra.jpg" %} alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Android Developer</h4>
+                        <h4 class="subheading">Chakra Network Solutions Pvt. Ltd.</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Android Developer as full time Internship 5 of
+                        months experience.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                                                 src={% static "pradeepan_portfolio/images/about/iitm.jpg" %} alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Android Developer</h4>
+                        <h4 class="subheading">RITCOE with 1.3+ Years Experience </h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Android Developer as full time at
+                        Reliance IITM Telecom Centre of Excellence Excellence (April 2018 - June 2019).</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                                                 src={% static "pradeepan_portfolio/images/about/svce_logo.jpg" %} alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Bachelor Of Technology</h4>
+                        <h4 class="subheading">Information Technology</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">I'm Pursuing career in Information Technology to
+                        expected graduation
+                        (July 2019 - June 2022).</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>Be Part<br/>Of Our<br/>Story!</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Services-->
+<section class="page-section" id="portfolio-summery">
+    <div class="container">
+        <h2 class="text-center mt-0">Projects</h2>
+        <hr class="divider my-1"/>
+        <div class="col">
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Electrical Vehicles- Battery Swapping Technology (EV Driver App)</h3>
+                    <h3 class="h4 mb-2">Client: Zomato</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The app is intended to help associates manage their experience of vehicle
+                        rentals and
+                        maintaining their rental and energy balances.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Electrical Vehicles- Battery Swapping Technology (SO App)</h3>
+                    <h3 class="h4 mb-2">Client: Essel Group</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The app is intended to help SO users to manage batteries in a vehicle,
+                        pickup/deliver charged/discharged batteries respectively, maintaining their rental and energy
+                        balances.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Electrical Vehicles- Battery Swapping Technology (Logistics App)</h3>
+                    <h3 class="h4 mb-2">Client: Essel Group</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The app is intended to help logistics users to view the SOs along with
+                        the details of charged
+                        / discharged batteries.
+                    </p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Electrical Vehicles- Battery Swapping Technology (Feet on Street App)</h3>
+                    <h3 class="h4 mb-2">Client: Essel Group</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The app is intended to help FOS users to view the list of SOs recruited
+                        along with details of energy KB/rental KB and charged/discharged batteries count.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Android 5 JAR Libraries and 1 ARR</h3>
+                    <h3 class="h4 mb-2">Client: Chakra Network Solution Private Limited</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">
+                    <ul>
+                        <li>Created 6+ fully functional applications for Android devices.</li>
+                        <li>Created 5 JARs (Location, Volley, Chart, Logger, and localization) supporting libraries for
+                            our android developers’ team.
+                        </li>
+                        <li>Created Grievance ARR supported to Implemented in 8+ applications for Android devices.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Location Messenger</h3>
+                    <h3 class="h4 mb-2">Client: Chakra Network Solution Private Limited</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The application is intended to help users share location, request
+                        location and share location on request automatically at anywhere.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Water level monitoring and controlling IOT</h3>
+                    <h3 class="h4 mb-2">Client: Imake</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The application is intended to help users for Water level monitoring and
+                        controlling motor through device.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Tubeless (YouTube based Application)</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">Tubeless can search videos, channels and playlists, play music tube and
+                        movie tube with full screen or floating pop-up window which always keeps on top. The floating
+                        tube pop-up player allows you to use your apps while playing YouTube music and tube video.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">Street Runner (GAME)</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">The project is about developing a game with street runner theme using
+                        Unity 3D as a developing unit. Implementation of real-time graphics, as well as sound effects
+                        and background music. The game uses visual studio as well as mono develop as the platform for
+                        scripting. The language that is used to implement every feature in the game C#.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="col-lg-12 text-left">
+                <div class="mt-5">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <h3 class="h4 mb-2">National Air Quality Index Monitor</h3>
+                    <br/> <h4 class="h5 mb-2">Description:</h4>
+                    <p class="text-muted mb-0">An air quality index is used by government agencies to communicate to the
+                        public how polluted the air currently. Check through app AQI values of the location along with
+                        the real-time information on the AQI parameters and get health advice based on the location.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio-->
+
+
+<div id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/GreenShare1.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/GreenShare1.png" %}  alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">GreenShare</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Aavin_Customer1.png" %}
+                ><img class="img-fluid"
+                      src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Aavin_Customer1.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Ice-Cream Parlour Customer</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Avain_Parlor1.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Avain_Parlor1.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Ice-Cream Parlour</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/TubeLess.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/TubeLess.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Tubeless</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/ImakeWaterLevel.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/ImakeWaterLevel.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Imake</div>
+                        <div class="project-name">Water Level Monitoring and Controlling</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Logitics.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Logitics.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Logistics</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Call to action-->
+<section class="page-section bg-dark text-white" id="blog">
+    <div class="container text-left">
+        <div class="container">
+            <h2 class="text-center mt-0">Blog</h2>
+            <hr class="divider my-1"/>
+            <br/>
+            <ul>
+                <li>
+                    <a href="https://medium.com/@pradeepan.prabha/how-to-target-new-customers-through-the-mail-868567a85f29">
+                        <h2
+                                class="mb-4 text-white">How to target new customers through the mail.</h2></a></li>
+                <li>
+                    <a href="https://medium.com/@pradeepan.prabha/top-20-countries-developers-are-analyzed-using-stack-overflow-survey-2019-eea30821bfe">
+                        <h2 class="mb-4 text-white">Top 20 Countries developers are analyzed using stack overflow survey 2019.</h2>
+                    </a></li>
+            </ul>
+            {#        <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>#}
+        </div>
+    </div>
+</section>
+<!-- Contact-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="mt-0">Let's Get In Touch!</h2>
+                <hr class="divider my-4"/>
+                <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email
+                    and we will get back to you as soon as possible!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                <div>+91 9042498022</div>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+                <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
+                ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a
+                    class="d-block" href="mailto:contact@yourwebsite.com">pradeepan.prabh@gmai.com</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="bg-light py-5">
+    <div class="container">
+        <div class="small text-center text-muted">Copyright © 2020 - Pradeepan</div>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!-- Core theme JS-->
+<script src={% static "pradeepan_portfolio/js/scripts.js" %}></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
