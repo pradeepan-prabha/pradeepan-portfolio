@@ -1,3 +1,4 @@
 /venu
 __pycache__
 *.idea
+*.sqlite3
