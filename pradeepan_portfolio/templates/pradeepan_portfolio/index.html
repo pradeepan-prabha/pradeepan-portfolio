@@ -34,7 +34,7 @@
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Myjourney">My Journey</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio-summery">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
             </ul>
@@ -48,14 +48,32 @@
             <div class="col-lg-10 align-self-end">
                 <h2 class="text-white text-white font-weight-bold ">Hi, I'm Pradeepan</h2>
                 <h2 class="text-white text-white font-weight-bold">Android Developer & Aspiring Data Scientist</h2>
+
             </div>
             </br>
             </br>
             </br>
             <div class="col-lg-8 align-self-baseline">
                 <h3 class="text-white-75 font-weight-lighter mb-5">I want to make thing that makes a difference.</h3>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact"> Hire Me </a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"> Hire Me </a>
+                <a class="btn btn-light btn-xl js-scroll-trigger"
+                   href="https://drive.google.com/uc?id=10RZHpjvWOqYf8OnVWeiyv_ecILFYls07&export=download">Download
+                    CV</a>
+                </br>
+                </br>
+                <a class="btn btn-light btn-social mx-2" href="mailto:pradeepan.prabh@gmai.com"><i
+                        class="fas fa-envelope"></i></a>
+                <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/pradeepan-p/"><i
+                        class="fab fa-linkedin"></i></a>
+                <a class="btn btn-light btn-social mx-2" href="https://github.com/pradeepan-prabha"><i
+                        class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mx-2"
+                   href="https://play.google.com/store/apps/developer?id=Pradeepan+P"><i
+                        class="fab fa-google-play"></i></a>
+                <a class="btn btn-light btn-social mx-2" href="https://www.instagram.com/pradeepan.prabha/"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social mx-2" href="https://medium.com/@pradeepan.prabha"><i
+                        class="fab fa-blogger"></i></a>
             </div>
         </div>
     </div>
@@ -147,10 +165,88 @@
         </ul>
     </div>
 </section>
+
+<div id="portfolio">
+    <div class="container-fluid p-0">
+        <h2 class="text-center mt-0">Protfolio Projects</h2>
+        <hr class="divider my-1"/>
+        </br>
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/GreenShare1.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/GreenShare1.png" %}  alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">GreenShare</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Aavin_Customer1.png" %}
+                ><img class="img-fluid"
+                      src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Aavin_Customer1.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Ice-Cream Parlour Customer</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Avain_Parlor1.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Avain_Parlor1.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Ice-Cream Parlour</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/TubeLess.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/TubeLess.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Tubeless</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/ImakeWaterLevel.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/ImakeWaterLevel.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Imake</div>
+                        <div class="project-name">Water Level Monitoring and Controlling</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box"
+                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Logitics.png" %}>
+                    <img class="img-fluid"
+                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Logitics.png" %} alt="image"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50"></div>
+                        <div class="project-name">Logistics</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <!-- Services-->
 <section class="page-section" id="portfolio-summery">
     <div class="container">
-        <h2 class="text-center mt-0">Projects</h2>
+        <h2 class="text-center mt-0">More Projects</h2>
         <hr class="divider my-1"/>
         <div class="col">
             <div class="col-lg-12 text-left">
@@ -280,79 +376,6 @@
 <!-- Portfolio-->
 
 
-<div id="portfolio">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box"
-                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/GreenShare1.png" %}>
-                    <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/GreenShare1.png" %}  alt="image"/>
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50"></div>
-                        <div class="project-name">GreenShare</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box"
-                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Aavin_Customer1.png" %}
-                ><img class="img-fluid"
-                      src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Aavin_Customer1.png" %} alt="image"/>
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50"></div>
-                        <div class="project-name">Ice-Cream Parlour Customer</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box"
-                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Avain_Parlor1.png" %}>
-                    <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Avain_Parlor1.png" %} alt="image"/>
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50"></div>
-                        <div class="project-name">Ice-Cream Parlour</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box"
-                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/TubeLess.png" %}>
-                    <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/TubeLess.png" %} alt="image"/>
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50"></div>
-                        <div class="project-name">Tubeless</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box"
-                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/ImakeWaterLevel.png" %}>
-                    <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/ImakeWaterLevel.png" %} alt="image"/>
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50">Imake</div>
-                        <div class="project-name">Water Level Monitoring and Controlling</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box"
-                   href={% static "pradeepan_portfolio/images/portfolio/fullsize/Logitics.png" %}>
-                    <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Logitics.png" %} alt="image"/>
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50"></div>
-                        <div class="project-name">Logistics</div>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-    </div>
-</div>
 <!-- Call to action-->
 <section class="page-section bg-dark text-white" id="blog">
     <div class="container text-left">
@@ -367,7 +390,8 @@
                                 class="mb-4 text-white">How to target new customers through the mail.</h2></a></li>
                 <li>
                     <a href="https://medium.com/@pradeepan.prabha/top-20-countries-developers-are-analyzed-using-stack-overflow-survey-2019-eea30821bfe">
-                        <h2 class="mb-4 text-white">Top 20 Countries developers are analyzed using stack overflow survey 2019.</h2>
+                        <h2 class="mb-4 text-white">Top 20 Countries developers are analyzed using stack overflow survey
+                            2019.</h2>
                     </a></li>
             </ul>
             {#        <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>#}
@@ -379,10 +403,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-                <h2 class="mt-0">Let's Get In Touch!</h2>
+                <h2 class="mt-0">Contact</h2>
                 <hr class="divider my-4"/>
-                <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email
-                    and we will get back to you as soon as possible!</p>
+                {#                <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email#}
+                {#                    and we will get back to you as soon as possible!</p>#}
             </div>
         </div>
         <div class="row">
@@ -393,17 +417,33 @@
             <div class="col-lg-4 mr-auto text-center">
                 <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
                 ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a
-                    class="d-block" href="mailto:contact@yourwebsite.com">pradeepan.prabh@gmai.com</a>
+                    class="d-block" href="mailto:pradeepan.prabh@gmai.com">pradeepan.prabh@gmai.com</a>
             </div>
+            </br>
+        </div>
+        </br>
+        </br>
+        <div class="row justify-content-center">
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/pradeepan-p/"><i
+                    class="fab fa-linkedin"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://github.com/pradeepan-prabha"><i
+                    class="fab fa-github"></i></a>
+            <a class="btn btn-dark btn-social mx-2"
+               href="https://play.google.com/store/apps/developer?id=Pradeepan+P"><i
+                    class="fab fa-google-play"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/pradeepan.prabha/"><i
+                    class="fab fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://medium.com/@pradeepan.prabha"><i
+                    class="fab fa-blogger"></i></a>
         </div>
     </div>
 </section>
 <!-- Footer-->
-<footer class="bg-light py-5">
+{% comment %}<footer class="bg-light py-5">
     <div class="container">
         <div class="small text-center text-muted">Copyright © 2020 - Pradeepan</div>
     </div>
-</footer>
+</footer>{% endcomment %}
 <!-- Bootstrap core JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
