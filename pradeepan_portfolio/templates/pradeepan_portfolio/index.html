@@ -43,16 +43,13 @@
 </nav>
 <!-- Masthead-->
 <header class="masthead">
-    <div class="container h-100">
+    <div class="container h-100 ">
         <div class="row h-100  text-left">
-            <div class="col-lg-10 align-self-end">
+            <div class="col-lg-10 align-self-end ">
                 <h2 class="text-white text-white font-weight-bold ">Hi, I'm Pradeepan</h2>
                 <h2 class="text-white text-white font-weight-bold">Android Developer & Aspiring Data Scientist</h2>
-
             </div>
-            </br>
-            </br>
-            </br>
+
             <div class="col-lg-8 align-self-baseline">
                 <h3 class="text-white-75 font-weight-lighter mb-5">I want to make thing that makes a difference.</h3>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"> Hire Me </a>
@@ -63,16 +60,20 @@
                 </br>
                 <a class="btn btn-light btn-social mx-2" href="mailto:pradeepan.prabh@gmai.com"><i
                         class="fas fa-envelope"></i></a>
-                <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/pradeepan-p/"><i
+                <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/pradeepan-p/"
+                   target="_blank"><i
                         class="fab fa-linkedin"></i></a>
-                <a class="btn btn-light btn-social mx-2" href="https://github.com/pradeepan-prabha"><i
+                <a class="btn btn-light btn-social mx-2" href="https://github.com/pradeepan-prabha" target="_blank"><i
                         class="fab fa-github"></i></a>
                 <a class="btn btn-light btn-social mx-2"
-                   href="https://play.google.com/store/apps/developer?id=Pradeepan+P"><i
+                   href="https://play.google.com/store/apps/developer?id=Pradeepan+P" target="_blank"><i
                         class="fab fa-google-play"></i></a>
-                <a class="btn btn-light btn-social mx-2" href="https://www.instagram.com/pradeepan.prabha/"><i
+                <a class="btn btn-light btn-social mx-2" href="https://twitter.com/PradeepanPrabha" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mx-2" href="https://www.instagram.com/pradeepan.prabha/"
+                   target="_blank"><i
                         class="fab fa-instagram"></i></a>
-                <a class="btn btn-light btn-social mx-2" href="https://medium.com/@pradeepan.prabha"><i
+                <a class="btn btn-light btn-social mx-2" href="https://medium.com/@pradeepan.prabha" target="_blank"><i
                         class="fab fa-blogger"></i></a>
             </div>
         </div>
@@ -89,8 +90,7 @@
                     applications. <br/> I worked for Indian Institute of Technology Madras (IITM)
                     <br/> & <br/> Internship at Chakra Network Solutions Pvt. Ltd.</h4>
                 <h5 class="text-white-75 font-weight-lighter mb-5">I developed several projects and AAR & JAR libraries
-                    all based on
-                    Android.</h5>
+                    based on Android.</h5>
                 <a class="btn btn-light btn-xl js-scroll-trigger" href="#Myjourney">My journey</a>
             </div>
         </div>
@@ -145,6 +145,19 @@
             </li>
             <li class="timeline-inverted">
                 <div class="timeline-image"><img class="rounded-circle img-fluid"
+                                                 src={% static "pradeepan_portfolio/images/about/udacity.png" %} alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Udacity</h4>
+                        <h4 class="subheading">Data Scientist Nanodegree</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">I'm graduation as a Data scientist Nanodegree from
+                        Udacity (2020).</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
                                                  src={% static "pradeepan_portfolio/images/about/svce_logo.jpg" %} alt=""/>
                 </div>
                 <div class="timeline-panel">
@@ -176,7 +189,7 @@
                 <a class="portfolio-box"
                    href={% static "pradeepan_portfolio/images/portfolio/fullsize/GreenShare1.png" %}>
                     <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/GreenShare1.png" %}  alt="image"/>
+                         src={% static "pradeepan_portfolio/images/portfolio/fullsize/GreenShare1.png" %}  alt="image"/>
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50"></div>
                         <div class="project-name">GreenShare</div>
@@ -187,7 +200,7 @@
                 <a class="portfolio-box"
                    href={% static "pradeepan_portfolio/images/portfolio/fullsize/Aavin_Customer1.png" %}
                 ><img class="img-fluid"
-                      src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Aavin_Customer1.png" %} alt="image"/>
+                      src={% static "pradeepan_portfolio/images/portfolio/fullsize/Aavin_Customer1.png" %} alt="image"/>
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50"></div>
                         <div class="project-name">Ice-Cream Parlour Customer</div>
@@ -198,7 +211,7 @@
                 <a class="portfolio-box"
                    href={% static "pradeepan_portfolio/images/portfolio/fullsize/Avain_Parlor1.png" %}>
                     <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Avain_Parlor1.png" %} alt="image"/>
+                         src={% static "pradeepan_portfolio/images/portfolio/fullsize/Avain_Parlor1.png" %} alt="image"/>
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50"></div>
                         <div class="project-name">Ice-Cream Parlour</div>
@@ -209,7 +222,7 @@
                 <a class="portfolio-box"
                    href={% static "pradeepan_portfolio/images/portfolio/fullsize/TubeLess.png" %}>
                     <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/TubeLess.png" %} alt="image"/>
+                         src={% static "pradeepan_portfolio/images/portfolio/fullsize/TubeLess.png" %} alt="image"/>
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50"></div>
                         <div class="project-name">Tubeless</div>
@@ -220,7 +233,7 @@
                 <a class="portfolio-box"
                    href={% static "pradeepan_portfolio/images/portfolio/fullsize/ImakeWaterLevel.png" %}>
                     <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/ImakeWaterLevel.png" %} alt="image"/>
+                         src={% static "pradeepan_portfolio/images/portfolio/fullsize/ImakeWaterLevel.png" %} alt="image"/>
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Imake</div>
                         <div class="project-name">Water Level Monitoring and Controlling</div>
@@ -231,7 +244,7 @@
                 <a class="portfolio-box"
                    href={% static "pradeepan_portfolio/images/portfolio/fullsize/Logitics.png" %}>
                     <img class="img-fluid"
-                         src={% static "pradeepan_portfolio/images/portfolio/thumbnails/Logitics.png" %} alt="image"/>
+                         src={% static "pradeepan_portfolio/images/portfolio/fullsize/Logitics.png" %} alt="image"/>
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50"></div>
                         <div class="project-name">Logistics</div>
@@ -375,7 +388,64 @@
 </section>
 <!-- Portfolio-->
 
-
+<section class="page-section" id="portfolio-summery">
+    <div class="container">
+        <h2 class="text-center mt-0">Certification</h2>
+        <hr class="divider my-1"/>
+        <div class="col">
+            <div class="col-lg-12 text-left">
+                <div class="mt-4">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <a href="https://graduation.udacity.com/confirm/74KDSHUJ" target="_blank"><h3 class="h3 mb-2">Data
+                        Scientist
+                        Nanodegree</h3></a>
+                </div>
+                <div class="mt-3">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <a href="https://graduation.udacity.com/confirm/CM77PRTA" target="_blank"><h3 class="h3 mb-2">Data
+                        Science with
+                        Python Nanodegree</h3></a>
+                </div>
+            </div>
+            <div class="col-lg-12 text-left">
+                <div class="mt-3">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/79B5TL5QBAQM" target="_blank">
+                        <h4
+                                class="h3 mb-2">AWS Fundamentals:
+                            Building Serverless Applications</h4></a>
+                </div>
+            </div>
+            <div class="col-lg-12 text-left">
+                <div class="mt-3">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/6V9CWUUCPU88" target="_blank">
+                        <h4
+                                class="h3 mb-2">AWS Fundamentals: Going
+                            Cloud-Native</h4></a>
+                </div>
+            </div>
+            <div class="col-lg-12 text-left">
+                <div class="mt-3">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/PMUAJMEVAG5C" target="_blank">
+                        <h4
+                                class="h3 mb-2">Regression using TensorFlow</h4></a>
+                </div>
+            </div>
+            <div class="col-lg-12 text-left">
+                <div class="mt-3">
+                    {#<i class="fas fa-4x fa-gem text-primary mb-4"></i>#}
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/C4N3S47VNG65" target="_blank">
+                        <h4
+                                class="h3 mb-2">Multiple Linear
+                            Regression with scikit-learn</h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 <!-- Call to action-->
 <section class="page-section bg-dark text-white" id="blog">
     <div class="container text-left">
@@ -424,16 +494,19 @@
         </br>
         </br>
         <div class="row justify-content-center">
-            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/pradeepan-p/"><i
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/pradeepan-p/" target="_blank"><i
                     class="fab fa-linkedin"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://github.com/pradeepan-prabha"><i
+            <a class="btn btn-dark btn-social mx-2" href="https://github.com/pradeepan-prabha" target="_blank"><i
                     class="fab fa-github"></i></a>
             <a class="btn btn-dark btn-social mx-2"
-               href="https://play.google.com/store/apps/developer?id=Pradeepan+P"><i
+               href="https://play.google.com/store/apps/developer?id=Pradeepan+P" target="_blank"><i
                     class="fab fa-google-play"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/pradeepan.prabha/"><i
+            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/PradeepanPrabha" target="_blank"><i
+                    class="fab fa-twitter"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/pradeepan.prabha/"
+               target="_blank"><i
                     class="fab fa-instagram"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://medium.com/@pradeepan.prabha"><i
+            <a class="btn btn-dark btn-social mx-2" href="https://medium.com/@pradeepan.prabha" target="_blank"><i
                     class="fab fa-blogger"></i></a>
         </div>
     </div>

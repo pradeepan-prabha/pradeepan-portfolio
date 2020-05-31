@@ -10698,10 +10698,34 @@ hr.light {
     }
 }
 
+@media only screen and (max-width: 1990px) , (max-height: 1080px) {
+    .img-responsive {
+        height: 768px;
+        width: auto;
+        margin-right: 40px
+    }
+
+}
+
+.inner-image {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.home__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 291px;
+  z-index: var(--z-normal);
+}
 
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
+    /*background-color: black;*/
+    /*background:  url("../images/PradeepanHeaderPic.png") ;*/
     background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/bg-masthead.jpg");
     background-position: center;
     background-repeat: no-repeat;
